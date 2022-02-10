@@ -1,0 +1,27 @@
+name: layer-example
+summary: A very basic example charm
+maintainer: pordonez <pablo.f.ordonez@gmail.com>
+series: ["focal"]
+description: |
+  This is a charm I build as part of my beginner charming tutorial.
+tags:
+  # Replace "misc" with one or more whitelisted tags from this list:
+  # https://jujucharms.com/docs/stable/authors-charm-metadata
+  - misc
+  - tutorials
+requires:
+  database:
+    interface: mysql
+series:
+  - bionic
+
+# subordinate: false
+# provides:
+#   provides-relation:
+#     interface: interface-name
+# requires:
+#   requires-relation:
+#     interface: interface-name
+# peers:
+#   peer-relation:
+#     interface: interface-name
